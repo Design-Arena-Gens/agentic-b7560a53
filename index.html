@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FujiTourGuide.com ? 1-Day Mt. Fuji Trip</title>
+    <meta name="description" content="FujiTourGuide.com ? 1-day Mt. Fuji private trips using Toyota Vellfire & Alphard." />
+    <link rel="icon" href="/assets/logo-icon.svg" />
+    <link rel="preload" href="/assets/logo-wordmark.svg" as="image" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="container header">
+      <img src="/assets/logo-wordmark.svg" alt="FujiTourGuide.com logo" class="logo" />
+      <nav class="nav">
+        <a href="#fleet">Fleet</a>
+        <a href="#about">About</a>
+        <a href="#download">Logo</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-text">
+          <h1>1-Day Mt. Fuji Private Trip</h1>
+          <p>Comfortable journeys in Toyota Vellfire & Alphard. Reliable, stylish, and safe for families and groups.</p>
+          <a class="cta" href="#download">Download Logo</a>
+        </div>
+        <div class="hero-art">
+          <img src="/assets/logo-primary.svg" alt="Mt. Fuji tour mark" />
+        </div>
+      </section>
+
+      <section id="fleet" class="container section">
+        <h2>Premium Fleet</h2>
+        <p>We use Toyota Vellfire and Alphard for smooth rides, spacious cabins, and executive comfort.</p>
+        <div class="cards">
+          <article class="card">
+            <div class="car car--vellfire" aria-hidden="true"></div>
+            <h3>Vellfire</h3>
+            <p>Refined comfort for up to 6 passengers.</p>
+          </article>
+          <article class="card">
+            <div class="car car--alphard" aria-hidden="true"></div>
+            <h3>Alphard</h3>
+            <p>Flagship luxury with extra legroom.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="download" class="container section">
+        <h2>Brand & Logo</h2>
+        <p>Color scheme inspired by Fuji?s deep blue, snow white, and Japan?s rising sun red.</p>
+        <div class="swatches" role="list">
+          <div class="swatch" style="--c:#0B3B8C"><span>#0B3B8C</span><em>Navy Fuji</em></div>
+          <div class="swatch" style="--c:#FFFFFF"><span>#FFFFFF</span><em>Snowcap</em></div>
+          <div class="swatch" style="--c:#BC002D"><span>#BC002D</span><em>Sun Red</em></div>
+          <div class="swatch" style="--c:#101828"><span>#101828</span><em>Ink</em></div>
+          <div class="swatch" style="--c:#667085"><span>#667085</span><em>Slate</em></div>
+        </div>
+        <div class="logo-grid">
+          <figure>
+            <img src="/assets/logo-primary.svg" alt="Primary logo" />
+            <figcaption>Primary</figcaption>
+          </figure>
+          <figure class="dark">
+            <img src="/assets/logo-primary.svg" alt="Primary on dark" />
+            <figcaption>Primary on dark</figcaption>
+          </figure>
+          <figure>
+            <img src="/assets/logo-wordmark.svg" alt="Wordmark" />
+            <figcaption>Wordmark</figcaption>
+          </figure>
+          <figure class="dark">
+            <img src="/assets/logo-icon.svg" alt="Icon mark" />
+            <figcaption>Icon</figcaption>
+          </figure>
+        </div>
+        <div class="downloads">
+          <a class="btn" href="/assets/logo-primary.svg" download>Download Primary SVG</a>
+          <a class="btn" href="/assets/logo-wordmark.svg" download>Download Wordmark SVG</a>
+          <a class="btn" href="/assets/logo-icon.svg" download>Download Icon SVG</a>
+        </div>
+      </section>
+
+      <section id="about" class="container section">
+        <h2>About FujiTourGuide.com</h2>
+        <p>Private day tours to Mt. Fuji with bilingual drivers, door-to-door pickup, and flexible itineraries. Clean vehicles, bottled water, and modern safety features included.</p>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p>? <span id="year"></span> FujiTourGuide.com ? All rights reserved</p>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

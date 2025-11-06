@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="540" viewBox="0 0 1080 540" role="img" aria-label="FujiTourGuide.com logo">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B3B8C"/>
+      <stop offset="100%" stop-color="#092d6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/>
+
+  <!-- Rising sun -->
+  <circle cx="760" cy="150" r="80" fill="#BC002D" opacity="0.95"/>
+
+  <!-- Mt. Fuji silhouette -->
+  <g transform="translate(140,110)">
+    <path d="M120 250 L300 20 L480 250 Z" fill="url(#navy)"/>
+    <path d="M300 20 L356 100 L320 92 L300 120 L280 92 L244 100 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Vans (stylized silhouettes) -->
+  <g transform="translate(140,320)">
+    <!-- Vellfire -->
+    <g transform="scale(1.0)">
+      <rect x="20" y="20" rx="16" ry="16" width="220" height="64" fill="#0B3B8C"/>
+      <rect x="36" y="28" width="90" height="28" rx="6" fill="#ffffff" opacity="0.95"/>
+      <rect x="132" y="28" width="76" height="28" rx="6" fill="#ffffff" opacity="0.95"/>
+      <circle cx="68" cy="94" r="12" fill="#101828"/>
+      <circle cx="192" cy="94" r="12" fill="#101828"/>
+    </g>
+    <!-- Alphard -->
+    <g transform="translate(260,0) scale(1.0)">
+      <rect x="20" y="20" rx="16" ry="16" width="220" height="64" fill="#0B3B8C"/>
+      <rect x="36" y="28" width="84" height="28" rx="6" fill="#ffffff" opacity="0.95"/>
+      <rect x="126" y="28" width="82" height="28" rx="6" fill="#ffffff" opacity="0.95"/>
+      <circle cx="68" cy="94" r="12" fill="#101828"/>
+      <circle cx="192" cy="94" r="12" fill="#101828"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(140,470)">
+    <text x="0" y="0" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="#0B3B8C">FujiTourGuide</text>
+    <text x="415" y="0" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="#BC002D">.com</text>
+    <text x="0" y="28" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#667085">1-Day Mt. Fuji Trips ? Toyota Vellfire & Alphard</text>
+  </g>
+</svg>
